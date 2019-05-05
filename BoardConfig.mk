@@ -14,21 +14,21 @@
 # limitations under the License.
 #
 
-# Inherit from motorola sdm660-common
--include device/motorola/sdm660-common/BoardConfigCommon.mk
+# Inherit from motorola sdm450-common
+-include device/motorola/sdm450-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/payton
+DEVICE_PATH := device/motorola/ali
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := payton
+TARGET_OTA_ASSERT_DEVICE := ali
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/msm8998
-TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CONFIG := ali_stock_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/ali
+# TARGET_KERNEL_CLANG_COMPILE := true
 
 # NFC
 BOARD_NFC_CHIPSET := pn553
@@ -44,11 +44,10 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_HAS_NO_WLAN_STATS := true
 
 # Treble
-PRODUCT_SHIPPING_API_LEVEL := 25
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Wifi
 WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
 
 # inherit from the proprietary version
--include vendor/motorola/payton/BoardConfigVendor.mk
-
+-include vendor/motorola/ali/BoardConfigVendor.mk
