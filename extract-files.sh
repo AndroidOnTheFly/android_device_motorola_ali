@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,8 +23,8 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 LINEAGE_ROOT="$MY_DIR"/../../..
 
-export DEVICE=payton
-export DEVICE_COMMON=sdm660-common
+export DEVICE=ali
+export DEVICE_COMMON=sdm450-common
 export VENDOR=motorola
 
 export DEVICE_BRINGUP_YEAR=2018
