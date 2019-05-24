@@ -26,8 +26,7 @@
 #
 
 on post-fs
-    symlink /dev/block/bootdevice/by-name/oem_b /dev/block/bootdevice/by-name/vendor_b
-    symlink /dev/block/bootdevice/by-name/oem_a /dev/block/bootdevice/by-name/vendor_a
+     symlink /dev/block/bootdevice/by-name/oem /dev/block/bootdevice/by-name/vendor
 
 on init
     setprop ro.vendor.hw.dualsim ${ro.boot.dualsim}
