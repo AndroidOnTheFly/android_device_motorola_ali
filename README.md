@@ -17,4 +17,4 @@ Display | 1080 x 2160 pixels, 5.7" LCD IPS
 Rear Camera  | 12 MP, f/1.8, 1/2.55", 1.4µm, PDAF, 5 MP, f/2.2, depth sensor
 Front Camera | 8 MP, f/2.2
 
-https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g6-2.jpg
+![Moto G6](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g6-2.jpg)
