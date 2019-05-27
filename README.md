@@ -8,7 +8,7 @@ Basic   | Spec Sheet
 CPU     | Octa-core 2.2 GHz Cortex-A53
 CHIPSET | Qualcomm SDM630 Snapdragon 630
 GPU     | Adreno 508
-Memory  | 3GB, 4GB or 6GB
+Memory  | 3GB or 4GB
 Shipped Android Version | 9.0 (Pie)
 Storage | 32GB or 64GB
 Battery | 3000 mAh
